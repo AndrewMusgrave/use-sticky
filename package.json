@@ -1,0 +1,31 @@
+{
+  "name": "use-sticky",
+  "version": "0.1.0",
+  "description": "React Hook for sticking elements",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prebuild": "yarn clean",
+    "build": "tsc --project ./tsconfig.json",
+    "clean": "rm -rf ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewMusgrave/use-sticky.git"
+  },
+  "homepage": "https://github.com/AndrewMusgrave/use-sticky",
+  "author": "Andrew Musgrave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndrewMusgrave/use-sticky/issues"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.5",
+    "tslib": "^1.11.1",
+    "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  }
+}

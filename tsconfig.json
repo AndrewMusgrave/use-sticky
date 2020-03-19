@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "./dist/",
+    "lib": ["dom", "esnext"],
+    "strict": true,
+    "module": "esnext",
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "target": "es5",
+    "importHelpers": true,
+    "rootDir": "./",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "jsx": "react",
+    "esModuleInterop": true
+  },
+  "include": ["./src/"],
+  "exclude": ["node_modules", "dist"]
+}
